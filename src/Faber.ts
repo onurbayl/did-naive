@@ -35,7 +35,7 @@ export class Faber extends BaseAgent {
     // NOTE: we assume the did is already registered on the ledger, we just store the private key in the wallet
     // and store the existing did in the wallet
     // indy did is based on private key (seed)
-    const unqualifiedIndyDid = '2jEvRuKmfBJTRa7QowDpNN'
+    const unqualifiedIndyDid = 'Qh8SuFxNsQ3Mz7y8jUXTn7'
     const cheqdDid = 'did:cheqd:testnet:d37eba59-513d-42d3-8f9f-d1df0548b675'
     const indyDid = `did:indy:${indyNetworkConfig.indyNamespace}:${unqualifiedIndyDid}`
 
@@ -46,7 +46,7 @@ export class Faber extends BaseAgent {
       privateKeys: [
         {
           keyType: KeyType.Ed25519,
-          privateKey: TypedArrayEncoder.fromString('afjdemoverysercure00000000000000'),
+          privateKey: TypedArrayEncoder.fromString('securifyidentity0000000000000000'),
         },
       ],
     })
