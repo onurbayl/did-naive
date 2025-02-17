@@ -1,0 +1,8 @@
+node_modules
+build
+.vscode
+.idea
+credo-*.tgz
+aries-framework-*.tgz
+coverage
+.DS_Store
